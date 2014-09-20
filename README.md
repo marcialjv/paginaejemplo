@@ -3,7 +3,7 @@ Página de Ejemplo
 
 Página de ejemplo para ayudantía de ramo Ingeniería de Software semeste 2 2014
 
-Esta página contenpla algunos de los contenidos básicos que se tratarán en el ramo.
+Esta página contempla algunos de los contenidos básicos que se tratarán en el ramo.
 
 Algunos contenidos son:
   - HTML5
