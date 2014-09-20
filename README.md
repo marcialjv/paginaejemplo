@@ -6,10 +6,10 @@ Página de ejemplo para ayudantía de ramo Ingeniería de Software semeste 2 201
 Esta página contenpla algunos de los contenidos básicos que se tratarán en el ramo.
 
 Algunos contenidos son:
-  -HTML5
-  -CSS3
-  -Responsive Web Design
-  -JQuery
+  - HTML5
+  - CSS3
+  - Responsive Web Design
+  - JQuery
   
 Todo el contenido es público, y orientado al uso y estudio de los alumnos de Ingeniería de Software.
 
