@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	border: 1px solid #000;
+	font-family:  90% Verdana, sans-serif;   
+	width: 90%;
+	margin: auto;
+}
+header{
+	border: 1px solid #A0A0A0;
+	width: 100%;
+	margin: auto;
+}
+
+nav{
+	background-color: #000076;
+	display: inline-block;
+	vertical-align: top; 
+	width: 100%;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	padding: 0.1em;
+	vertical-align: top;
+}
+
+nav a{
+	color: #FFF;
+	display: block;
+	padding: 0.2em;
+	padding-left: 0.9em;
+	padding-right: 0.9em;
+	transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	text-decoration: none;
+}
+
+nav a:hover{
+	background: #0000F5;
+	transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+}
+
+section#contenido{
+	background-color: #000076;
+}
+
+section#nose, aside{
+	display: inline-block;
+	background-color: #F6378E;
+	vertical-align: top;
+	width: 70%;
+}
+
+article{
+	background-color: #1D5058;
+	width: 100%;
+	border: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+}
+
+iframe{
+	border: 0;
+	height: 400px;
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+}
+
+aside{
+	background-color: #7EEBFE;
+	padding: 5px;
+	width: 28%;
+
+}
+
+input[type="text"]{
+	margin-top: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+
+}
+
+input[type="submit"] {
+	background-color: #FFFFFF;
+	margin: auto;
+	margin-top: 8px;
+	display: block;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	width: 80%;
+	border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+
+
+footer{
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+
+
+}
+
+table {
+	border: 2px solid #000000;
+	border-collapse: collapse;
+	font-family: Arial, Verdana;
+	font-size: 40px;
+	min-height: 400px; 
+	text-align: center;	
+	width: 60%;
+}
+
+td{
+	border: 1px solid #000;
+	margin: 1px;
+    padding: 1px;
+}
+
+
+
+@media (max-width: 800px){
+	img#cna{
+		display: none;
+	}
+	
+	section#nose{
+	width: 100%;
+	}
+
+	aside{
+		width: 70%;
+		font-size: 20px;
+		display: block;
+		margin: auto;
+	}
+	
+	input[type="text"]{
+		width: 200px;
+	}
+
+
+}
+
+
+@media (max-width: 600px){
+	header a img{
+		display: block;
+		margin: auto;
+	}
+}
+
+
+
+
+

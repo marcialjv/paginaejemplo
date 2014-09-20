@@ -1,0 +1,49 @@
+ul{
+	background-color: #000076;
+	width: 100%;
+	list-style: none;
+	margin: auto;
+	height: 10%;
+}
+
+
+
+header ul{
+	background-color: #000076;
+	width: 100%;
+	list-style: none;
+	height: 10%;
+}
+
+
+--------------------------------------------------
+
+header ul li a{
+	background-color: #000076;
+	float: left;
+	color: #EEEEEE;
+	font-size: 12px;
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	min-width: 40px;
+
+}
+
+header ul{
+	background-color: #000076;
+	list-style: none;
+	height: 10%;
+	width: 100%;
+}
+
+
+
+
+a:hover{
+	color: #EEEEEE;
+
+}
